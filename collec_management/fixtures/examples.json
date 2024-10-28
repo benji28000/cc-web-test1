@@ -1,0 +1,92 @@
+[
+{
+    "model": "collec_management.collec",
+    "pk": 1,
+    "fields": {
+        "title": "Collection 1",
+        "description": "Description 1",
+        "date": "2024-10-27T21:55:29.142Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 2,
+    "fields": {
+        "title": "Collection 2",
+        "description": "Description 2",
+        "date": "2024-10-27T21:55:29.159Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 3,
+    "fields": {
+        "title": "Collection 2",
+        "description": "Description 2",
+        "date": "2024-10-27T21:55:29.171Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 4,
+    "fields": {
+        "title": "Collection 4",
+        "description": "Description 4",
+        "date": "2024-10-27T21:55:29.184Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 5,
+    "fields": {
+        "title": "Collection 5",
+        "description": "Description 5",
+        "date": "2024-10-27T21:55:29.196Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 6,
+    "fields": {
+        "title": "Collection 6",
+        "description": "Description 6",
+        "date": "2024-10-27T21:55:29.208Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 7,
+    "fields": {
+        "title": "Collection 7",
+        "description": "Description 7",
+        "date": "2024-10-27T21:55:29.220Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 8,
+    "fields": {
+        "title": "Collection 8",
+        "description": "Description 8",
+        "date": "2024-10-27T21:55:29.232Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 9,
+    "fields": {
+        "title": "Collection 9",
+        "description": "Description 9",
+        "date": "2024-10-27T21:55:29.244Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 10,
+    "fields": {
+        "title": "Collection 10",
+        "description": "Description 10",
+        "date": "2024-10-27T21:55:29.256Z"
+    }
+}
+]

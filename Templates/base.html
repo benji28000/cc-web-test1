@@ -1,0 +1,31 @@
+{% load django_bootstrap5 %}
+
+
+{% bootstrap_messages %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} CC1 home {% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+
+</head>
+<body>
+    {% include 'menu.html' %}
+
+
+    {% block bootstrap5_content %}
+
+    
+    {% endblock %}
+
+</body>
+{% bootstrap_javascript %}
+
+</html>

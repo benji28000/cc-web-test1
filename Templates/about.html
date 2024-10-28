@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}À propos{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container my-5">
+    <div class="card shadow-sm p-4">
+        <h1 class="display-5 text-center mb-4">À propos de l'application</h1>
+
+        <p class="lead">Cette application est conçue pour faciliter la gestion des collections. Elle offre des fonctionnalités permettant d’ajouter, éditer, et supprimer des collections, ainsi que de consulter des détails spécifiques sur chacune d'elles.</p>
+        
+        <p>Que vous soyez un amateur de collections ou un professionnel, cette application vous aide à organiser et explorer vos collections de manière efficace.</p>
+        
+        <div class="text-center mt-4">
+            <a href="{% url 'index' %}" class="btn btn-primary me-2">Retour à l'accueil</a>
+            <a href="{% url 'collec_management:all' %}" class="btn btn-success">Voir les Collections</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

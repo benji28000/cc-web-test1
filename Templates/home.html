@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}Accueil de l'application{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container my-5">
+    <div class="text-center">
+        <h1 class="display-4 mb-4">Bienvenue dans l'application</h1>
+
+        <p class="lead">Explorez nos fonctionnalités et organisez vos collections en toute simplicité. Utilisez les options ci-dessous pour naviguer dans l'application.</p>
+        
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestion des Collections</h5>
+                        <p class="card-text">Accédez à l'interface de gestion pour explorer, ajouter et organiser vos collections.</p>
+                        <a href="{% url 'collec_management:index' %}" class="btn btn-primary">Voir les Collections</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">À propos de l'application</h5>
+                        <p class="card-text">Découvrez notre mission et comment cette application peut vous aider dans la gestion de vos collections.</p>
+                        <a href="{% url 'about' %}" class="btn btn-success">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

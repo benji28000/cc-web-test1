@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %} 
+
+{% block title %}Édition de la collection {{ collection.title }}{% endblock %}
+
+{% block bootstrap5_content %}
+
+<div class="container my-5">
+    <h1 class="mb-4">Édition de la collection {{ collection.title }}</h1>
+
+    <form method="post" class="card p-4 shadow-sm">
+        {% csrf_token %}
+        
+        {% bootstrap_form form %}
+
+        <div class="mt-3 d-flex justify-content-end">
+                        <a href="{% url 'collec_management:all' %}" class="btn btn-danger me-2">Annuler</a>
+
+            <button type="submit" class="btn btn-success ">Modifier</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %} <!-- Charger django_bootstrap5 -->
+
+{% block title %}Collection {{ collection.title }}{% endblock %}
+
+{% block bootstrap5_content %}
+
+<div class="container my-5">
+    <div class="card">
+        <div class="card-header">
+            <h1 class="card-title">{{ collection.title }}</h1>
+        </div>
+        <div class="card-body">
+            <p class="card-text">{{ collection.description }}</p>
+            <p class="text-muted">Date de création : {{ collection.date }}</p>
+        </div>
+        <div class="card-footer text-end">
+            <a href="{% url 'collec_management:all' %}" class="btn btn-primary">Retour aux collections</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
