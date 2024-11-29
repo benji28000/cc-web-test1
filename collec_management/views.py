@@ -85,3 +85,21 @@ def del_element(request, element_id):
         return redirect('collec_list')
     return render(request, "element_del.html", {"element": element})
 
+def element(request, element_id):
+    element = get_object_or_404(Element, pk=element_id)
+    return render(request, "element_detail.html", {"element": element})
+
+def edit_element(request, element_id):
+    element = get_object_or_404(Element, pk=element_id)
+    if request.method == "POST":
+        form = ElementForm(request.POST, instance=element)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "L'élément a bien été modifié")
+            return redirect('element_detail', element_id=element_id)
+        else:
+            messages.error(request, "Erreur dans la modification de l'élément")
+    else:
+        form = ElementForm(instance=element)
+    return render(request, "element_form_edit.html", {"form": form, "element": element})
+

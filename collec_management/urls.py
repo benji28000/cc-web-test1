@@ -11,5 +11,7 @@ urlpatterns = [
     path('change/<int:collec_id>/', views.change_collec, name="collec_change"),
     path('element/add/', views.add_element, name="element_add"),
     path('element/delete/<int:element_id>/', views.del_element, name="element_del"),
+    path('element/edit/<int:element_id>/', views.edit_element, name="element_edit"),
+    path('element/<int:element_id>/', views.element, name="element_detail"),
     
 ]

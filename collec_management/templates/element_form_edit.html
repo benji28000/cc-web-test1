@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}Modifier l'Élément{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container my-5 d-flex justify-content-center">
+
+    <div class="p-5 border border-primary rounded shadow" style="background-color: #80c0f8; max-width: 600px; width: 100%;">
+        
+        <h2 class="text-center mb-4">Éditer un Élément</h2>
+
+        <form action="{% url 'element_edit' element.id %}" method="post">
+            {% csrf_token %}
+            {% bootstrap_form form layout='layout' size='lg' %}
+
+            <div class="d-flex justify-content-end mt-4">
+                <a href="{% url 'element_detail' element.id %}" class="btn btn-danger me-2">Annuler</a>
+                {% bootstrap_button button_type="submit" content="Modifier" button_class="btn btn-success" %}
+            </div>
+        </form>
+    </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ element.title }}{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container my-5 d-flex justify-content-center">
+
+    <div class="p-5 border border-primary rounded shadow" style="background-color: #80c0f8; max-width: 600px; width: 100%;">
+        <h1 class="text-center mb-4">{{ element.title }}</h1>
+        <div class="mb-4">
+            <h4>Description</h4>
+            <p class="text-dark">{{ element.description }}</p>
+        </div>
+        <div class="mb-4">
+            <h4>Valeur</h4>
+            <p class="text-dark">{{ element.value }} €</p>
+        </div>
+        <div class="mb-4">
+            <h4>Quantité</h4>
+            <p class="text-dark">{{ element.quantity }}</p>
+        </div>
+        <div class="mb-4">
+            <h4>Date d'ajout</h4>
+            <p class="text-dark">{{ element.date | date:"j/m/Y" }}</p>
+        </div>
+        <div class="mb-4">
+            <h4>Collection associée</h4>
+            <p class="text-dark">{{ element.collec.title }}</p>
+        </div>
+        <div class="d-flex justify-content-end">
+            <a href="{% url 'element_edit' element.id %}" class="btn btn-success me-2">
+                <i class="bi bi-pencil-square"></i> Modifier
+            </a>
+            <a href="{% url 'element_del' element.id %}" class="btn btn-danger">
+                <i class="bi bi-trash"></i> Supprimer
+            </a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
