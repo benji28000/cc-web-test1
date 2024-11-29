@@ -3,8 +3,8 @@ from django.http import Http404
 from django.shortcuts import redirect, render, get_object_or_404
 from django.contrib import messages
 
-from collec_management.forms import CollecForm
-from collec_management.models import Collec
+from collec_management.forms import CollecForm, ElementForm
+from collec_management.models import Collec, Element
 from django.contrib import messages
 
 def about(request):
@@ -63,3 +63,25 @@ def change_collec(request, collec_id):
 
 def home(request):
     return render(request, 'home.html')
+
+def add_element(request):
+    if request.method == "POST":
+        form = ElementForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "L'élément a bien été ajouté")
+            return redirect('collec_list')
+        else:
+            messages.error(request, "Erreur dans l'ajout de l'élément")
+    else:
+        form = ElementForm()
+    return render(request, "element_form.html", {"form": form})
+
+def del_element(request, element_id):
+    element = get_object_or_404(Element, pk=element_id)
+    if request.method == "POST":
+        element.delete()
+        messages.success(request, "L'élément a bien été supprimé")
+        return redirect('collec_list')
+    return render(request, "element_del.html", {"element": element})
+

@@ -9,5 +9,7 @@ urlpatterns = [
     path('new/', views.new_collec, name="collec_new"),
     path('delete/<int:collec_id>', views.del_collec, name="collec_del"),
     path('change/<int:collec_id>/', views.change_collec, name="collec_change"),
+    path('element/add/', views.add_element, name="element_add"),
+    path('element/delete/<int:element_id>/', views.del_element, name="element_del"),
     
 ]

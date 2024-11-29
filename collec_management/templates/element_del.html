@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}Supprimer un élément{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container my-5 d-flex justify-content-center">
+
+    <div class="p-5 border border-danger rounded shadow" style="background-color: #f8d7da; max-width: 600px; width: 100%;">
+        
+        <h2 class="text-center mb-4 text-danger">Supprimer un Élément</h2>
+        
+        <p class="text-center">Êtes-vous sûr de vouloir supprimer l'élément <strong>{{ element.title }}</strong> ?</p>
+
+        <form action="{% url 'element_del' element.id %}" method="post" class="mt-4">
+            {% csrf_token %}
+            <div class="d-flex justify-content-center">
+                <a href="{% url 'collec_list' %}" class="btn btn-primary me-3">Annuler</a>
+                {% bootstrap_button button_type="submit" content="Valider" button_class="btn btn-danger" %}
+            </div>
+        </form>
+    </div>
+
+</div>
+{% endblock %}
