@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Application de gestion des collections{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container text-center py-5">
+
+    <h1 class="display-6 display-md-4 mb-4">Gestion des Collections</h1>
+
+    <p class="lead">Bienvenue dans l'application de gestion de collections pour le CC de FrameWork web. Ici, vous pouvez explorer, ajouter et organiser vos collections de jeu vidéo.</p>
+    
+    <div class="mt-4 d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="{% url 'collec_list' %}" class="btn btn-primary btn-lg">Voir toutes les collections</a>
+        <a href="{% url 'collec_new' %}" class="btn btn-success btn-lg">Ajouter une nouvelle collection</a>
+    </div>
+</div>
+{% endblock %}

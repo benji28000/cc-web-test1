@@ -1,14 +1,13 @@
 from django.urls import path
-
 from . import views
 
-app_name = 'collec_management'
-
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('collection/<int:id>/', views.detailCollection, name='detailCollection'),
-    path('all/', views.list, name='all'),
-    path('new/', views.CreateCollection, name='new'),
-    path('delete/<int:id>/', views.deleteCollection, name='delete'),
-    path('change/<int:id>/', views.changeCollection, name='change'),
+    path('', views.home, name='home'),
+    path('about/', views.about, name='about'),
+    path('collection/<int:collec_id>', views.collection, name="collec_detail"),
+    path('all/', views.collectionList, name='collec_list'),
+    path('new/', views.new_collec, name="collec_new"),
+    path('delete/<int:collec_id>', views.del_collec, name="collec_del"),
+    path('change/<int:collec_id>/', views.change_collec, name="collec_change"),
+    
 ]

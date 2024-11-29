@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ collec.title }}{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container my-5 d-flex justify-content-center">
+
+    <div class="p-5 border border-primary rounded shadow" style="background-color: #80c0f8; max-width: 600px; width: 100%;">
+        <h1 class="text-center mb-4">{{ collec.title }}</h2>
+        <div class="mb-4">
+            <h4 >Description</h5>
+            <p class="text-dark">{{ collec.description }}</p>
+        </div>
+        <div class="mb-4">
+            <h4 >Date d'ajout</h5>
+            <p class="text-dark">{{ collec.date | date:"j/m/Y" }}</p>
+        </div>
+        <div class="d-flex justify-content-end ">
+            <a href="{% url 'collec_change' collec.id %}" class="btn btn-success me-2">
+                <i class="bi bi-pencil-square"></i> Modifier
+            </a>
+            <a href="{% url 'collec_del' collec.id %}" class="btn btn-danger">
+                <i class="bi bi-trash"></i> Supprimer
+            </a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

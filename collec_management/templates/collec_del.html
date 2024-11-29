@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}Supprimer une collection{% endblock %}
+
+{% block bootstrap5_content %}
+<div class="container my-5 d-flex justify-content-center">
+
+    <div class="p-5 border border-danger rounded shadow" style="background-color: #f8d7da; max-width: 600px; width: 100%;">
+        
+        <h2 class="text-center mb-4 text-danger">Supprimer une Collection</h2>
+        
+        <p class="text-center">Êtes-vous sûr de vouloir supprimer la collection <strong>{{ collec.title }}</strong> ?</p>
+
+        <form action="{% url 'collec_del' collec.id %}" method="post" class="mt-4">
+            {% csrf_token %}
+
+            <div class="d-flex justify-content-center">
+                <a href="{% url 'collec_list' %}" class="btn btn-primary me-3">Annuler</a>
+                {% bootstrap_button button_type="submit" content="Valider" button_class="btn btn-danger" %}
+            </div>
+        </form>
+    </div>
+
+</div>
+{% endblock %}

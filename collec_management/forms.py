@@ -1,11 +1,15 @@
-from django import forms
-from .models import Collec
+from dataclasses import fields
 
-class CollecForm(forms.ModelForm):
-    class Meta:
+from django.forms import ModelForm
+
+from collec_management.models import Collec
+
+
+class CollecForm(ModelForm) :
+    class Meta :
         model = Collec
-        fields = ['title', 'description']
-        widgets = {
-            'title': forms.TextInput(attrs={'class': 'form-control'}),
-            'description': forms.Textarea(attrs={'class': 'form-control'})
+        fields = ["title","description"]
+        labels = {
+            "title": "Titre",
+            "description": "Description"
         }
