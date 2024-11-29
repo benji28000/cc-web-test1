@@ -116,7 +116,7 @@
        "description": "Un minerai précieux utilisé pour créer des outils et des armures.",
        "value": 50.00,
        "quantity": 30,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 1
    }
 },
@@ -128,7 +128,7 @@
        "description": "Utilisé pour échanger avec les villageois.",
        "value": 40.00,
        "quantity": 50,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 1
    }
 },
@@ -140,7 +140,7 @@
        "description": "Un minerai utilisé pour des objets décoratifs ou techniques.",
        "value": 30.00,
        "quantity": 80,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 1
    }
 },
@@ -152,7 +152,7 @@
        "description": "Un minerai essentiel pour les outils et machines.",
        "value": 20.00,
        "quantity": 100,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 1
    }
 },
@@ -164,7 +164,7 @@
        "description": "Utilisé pour le carburant dans les fours.",
        "value": 10.00,
        "quantity": 200,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 1
    }
 },
@@ -176,7 +176,7 @@
        "description": "Inspiré du personnage emblématique.",
        "value": 10.00,
        "quantity": 100,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 2
    }
 },
@@ -188,7 +188,7 @@
        "description": "Un skin emblématique de Fortnite.",
        "value": 15.00,
        "quantity": 120,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 2
    }
 },
@@ -200,7 +200,7 @@
        "description": "Skin représentant le célèbre streamer Ninja.",
        "value": 20.00,
        "quantity": 80,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 2
    }
 },
@@ -212,7 +212,7 @@
        "description": "Un skin rare de la saison 2.",
        "value": 25.00,
        "quantity": 50,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 2
    }
 },
@@ -224,7 +224,7 @@
        "description": "L'un des skins les plus rares du jeu.",
        "value": 30.00,
        "quantity": 30,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 2
    }
 },
@@ -236,7 +236,7 @@
        "description": "Fusil d'assaut classique dans Call of Duty.",
        "value": 100.00,
        "quantity": 40,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 3
    }
 },
@@ -248,7 +248,7 @@
        "description": "Fusil d'assaut légendaire.",
        "value": 120.00,
        "quantity": 35,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 3
    }
 },
@@ -260,7 +260,7 @@
        "description": "Pistolet très puissant.",
        "value": 80.00,
        "quantity": 50,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 3
    }
 },
@@ -272,7 +272,7 @@
        "description": "Mitraillette légère et efficace.",
        "value": 90.00,
        "quantity": 60,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 3
    }
 },
@@ -284,7 +284,7 @@
        "description": "Lance-roquettes destructeur.",
        "value": 150.00,
        "quantity": 20,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 3
    }
 },
@@ -296,7 +296,7 @@
        "description": "Un canapé confortable pour les Sims.",
        "value": 50.00,
        "quantity": 25,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 4
    }
 },
@@ -308,7 +308,7 @@
        "description": "Un lit luxueux pour les Sims.",
        "value": 200.00,
        "quantity": 10,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 4
    }
 },
@@ -320,7 +320,7 @@
        "description": "Un réfrigérateur connecté et efficace.",
        "value": 300.00,
        "quantity": 5,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 4
    }
 },
@@ -332,7 +332,7 @@
        "description": "Parfait pour le télétravail de vos Sims.",
        "value": 150.00,
        "quantity": 15,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 4
    }
 },
@@ -344,7 +344,7 @@
        "description": "Une chaise élégante et confortable.",
        "value": 100.00,
        "quantity": 20,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 4
    }
 },
@@ -356,7 +356,7 @@
        "description": "Véhicule blindé pour la bataille.",
        "value": 500.00,
        "quantity": 10,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 5
    }
 },
@@ -368,7 +368,7 @@
        "description": "Hélicoptère d'attaque performant.",
        "value": 1000.00,
        "quantity": 5,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 5
    }
 },
@@ -380,7 +380,7 @@
        "description": "Véhicule rapide et agile.",
        "value": 300.00,
        "quantity": 20,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 5
    }
 },
@@ -392,7 +392,7 @@
        "description": "Utilisé pour des batailles navales.",
        "value": 600.00,
        "quantity": 8,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 5
    }
 },
@@ -404,7 +404,7 @@
        "description": "Idéal pour les combats aériens.",
        "value": 1500.00,
        "quantity": 3,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 5
    }
 },
@@ -416,7 +416,7 @@
        "description": "Une mage séductrice.",
        "value": 10.00,
        "quantity": 300,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 6
    }
 },
@@ -428,7 +428,7 @@
        "description": "Un samouraï maître du vent.",
        "value": 20.00,
        "quantity": 200,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 6
    }
 },
@@ -440,7 +440,7 @@
        "description": "Une tireuse d'élite explosive.",
        "value": 15.00,
        "quantity": 250,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 6
    }
 },
@@ -452,7 +452,7 @@
        "description": "Un guerrier tanky.",
        "value": 5.00,
        "quantity": 400,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 6
    }
 },
@@ -464,7 +464,7 @@
        "description": "Une mage lumineuse.",
        "value": 12.00,
        "quantity": 300,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 6
    }
 },
@@ -476,7 +476,7 @@
        "description": "Agent agile et rapide.",
        "value": 10.00,
        "quantity": 300,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 7
    }
 },
@@ -488,7 +488,7 @@
        "description": "Agent maîtrisant le feu.",
        "value": 12.00,
        "quantity": 200,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 7
    }
 },
@@ -500,7 +500,7 @@
        "description": "Agent de soutien avec des capacités de soin.",
        "value": 15.00,
        "quantity": 150,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 7
    }
 },
@@ -512,7 +512,7 @@
        "description": "Agent utilisant des capacités toxiques.",
        "value": 18.00,
        "quantity": 100,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 7
    }
 },
@@ -524,7 +524,7 @@
        "description": "Agent tactique fournissant des supports de zone.",
        "value": 20.00,
        "quantity": 80,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 7
    }
 },
@@ -536,7 +536,7 @@
        "description": "Un masque ancien trouvé dans un temple perdu.",
        "value": 500.00,
        "quantity": 3,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 8
    }
 },
@@ -548,7 +548,7 @@
        "description": "Une dague mystique liée à un ancien empereur.",
        "value": 750.00,
        "quantity": 2,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 8
    }
 },
@@ -560,7 +560,7 @@
        "description": "Un artefact légendaire lié à la mythologie égyptienne.",
        "value": 1000.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 8
    }
 },
@@ -572,7 +572,7 @@
        "description": "Une amulette ornée de motifs complexes.",
        "value": 300.00,
        "quantity": 10,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 8
    }
 },
@@ -584,7 +584,7 @@
        "description": "Une couronne sacrée liée à un ancien culte.",
        "value": 800.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 8
    }
 },
@@ -596,7 +596,7 @@
        "description": "Une épée magique utilisée pour vaincre les forces du mal.",
        "value": 1000.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 9
    }
 },
@@ -608,7 +608,7 @@
        "description": "Un bouclier emblématique offrant une grande protection.",
        "value": 500.00,
        "quantity": 2,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 9
    }
 },
@@ -620,7 +620,7 @@
        "description": "Un instrument magique capable de manipuler le temps.",
        "value": 750.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 9
    }
 },
@@ -632,7 +632,7 @@
        "description": "Un arc sacré utilisé pour vaincre les forces obscures.",
        "value": 600.00,
        "quantity": 3,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 9
    }
 },
@@ -644,7 +644,7 @@
        "description": "Un artefact mystique symbolisant le pouvoir, la sagesse et le courage.",
        "value": 1500.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 9
    }
 },
@@ -656,7 +656,7 @@
        "description": "Un Pokémon légendaire psychique créé par l'homme.",
        "value": 1200.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 10
    }
 },
@@ -668,7 +668,7 @@
        "description": "Un Pokémon dragon volant qui contrôle les cieux.",
        "value": 1500.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 10
    }
 },
@@ -680,7 +680,7 @@
        "description": "Un Pokémon aquatique et psychique qui garde les océans.",
        "value": 1400.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 10
    }
 },
@@ -692,7 +692,7 @@
        "description": "Un Pokémon dragon et acier qui contrôle le temps.",
        "value": 1600.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 10
    }
 },
@@ -704,7 +704,7 @@
        "description": "Un Pokémon légendaire terrestre qui contrôle les continents.",
        "value": 1300.00,
        "quantity": 1,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 10
    }
 },
@@ -716,7 +716,7 @@
        "description": "Un maître du Hadouken, combattant emblématique.",
        "value": 50.00,
        "quantity": 100,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 11
    }
 },
@@ -728,7 +728,7 @@
        "description": "Un combattant rapide et agile, rival de Ryu.",
        "value": 45.00,
        "quantity": 100,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 11
    }
 },
@@ -740,7 +740,7 @@
        "description": "Une combattante rapide avec des coups de pieds puissants.",
        "value": 40.00,
        "quantity": 120,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 11
    }
 },
@@ -752,7 +752,7 @@
        "description": "Un combattant sauvage avec des attaques électriques.",
        "value": 35.00,
        "quantity": 80,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 11
    }
 },
@@ -764,7 +764,7 @@
        "description": "Un combattant tactique avec des attaques à distance.",
        "value": 38.00,
        "quantity": 90,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 11
    }
 },
@@ -776,7 +776,7 @@
        "description": "Une arme emblématique des agents STARS.",
        "value": 300.00,
        "quantity": 50,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 12
    }
 },
@@ -788,7 +788,7 @@
        "description": "Idéal pour combattre les hordes de zombies.",
        "value": 500.00,
        "quantity": 20,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 12
    }
 },
@@ -800,7 +800,7 @@
        "description": "Pour une élimination massive des ennemis.",
        "value": 800.00,
        "quantity": 10,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 12
    }
 },
@@ -812,7 +812,7 @@
        "description": "Parfait pour éliminer à distance.",
        "value": 700.00,
        "quantity": 15,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 12
    }
 },
@@ -824,7 +824,7 @@
        "description": "Dernier recours pour la survie.",
        "value": 50.00,
        "quantity": 100,
-       "date": "2024-11-29",
+       "date": "2024-11-29T00:00:00Z",
        "collec": 12
    }
 }
