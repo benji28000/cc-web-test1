@@ -106,5 +106,726 @@
       "description": "Resident Evil, connue au Japon sous le nom Biohazard (バイオハザード, Baiohazādo?), est une série de jeux vidéo d'aventure, action et réflexion de type survival horror. La franchise appartient à la société japonaise Capcom.",
       "date": "2024-10-28T16:42:53.989Z"
    }
+},
+
+{
+   "model": "collec_management.element",
+   "pk": 1,
+   "fields": {
+       "title": "Diamant",
+       "description": "Un minerai précieux utilisé pour créer des outils et des armures.",
+       "value": 50.00,
+       "quantity": 30,
+       "date": "2024-11-29",
+       "collec": 1
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 2,
+   "fields": {
+       "title": "Émeraude",
+       "description": "Utilisé pour échanger avec les villageois.",
+       "value": 40.00,
+       "quantity": 50,
+       "date": "2024-11-29",
+       "collec": 1
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 3,
+   "fields": {
+       "title": "Or",
+       "description": "Un minerai utilisé pour des objets décoratifs ou techniques.",
+       "value": 30.00,
+       "quantity": 80,
+       "date": "2024-11-29",
+       "collec": 1
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 4,
+   "fields": {
+       "title": "Fer",
+       "description": "Un minerai essentiel pour les outils et machines.",
+       "value": 20.00,
+       "quantity": 100,
+       "date": "2024-11-29",
+       "collec": 1
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 5,
+   "fields": {
+       "title": "Charbon",
+       "description": "Utilisé pour le carburant dans les fours.",
+       "value": 10.00,
+       "quantity": 200,
+       "date": "2024-11-29",
+       "collec": 1
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 6,
+   "fields": {
+       "title": "Skin John Wick",
+       "description": "Inspiré du personnage emblématique.",
+       "value": 10.00,
+       "quantity": 100,
+       "date": "2024-11-29",
+       "collec": 2
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 7,
+   "fields": {
+       "title": "Skin Raptor",
+       "description": "Un skin emblématique de Fortnite.",
+       "value": 15.00,
+       "quantity": 120,
+       "date": "2024-11-29",
+       "collec": 2
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 8,
+   "fields": {
+       "title": "Skin Ninja",
+       "description": "Skin représentant le célèbre streamer Ninja.",
+       "value": 20.00,
+       "quantity": 80,
+       "date": "2024-11-29",
+       "collec": 2
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 9,
+   "fields": {
+       "title": "Skin Black Knight",
+       "description": "Un skin rare de la saison 2.",
+       "value": 25.00,
+       "quantity": 50,
+       "date": "2024-11-29",
+       "collec": 2
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 10,
+   "fields": {
+       "title": "Skin Renegade Raider",
+       "description": "L'un des skins les plus rares du jeu.",
+       "value": 30.00,
+       "quantity": 30,
+       "date": "2024-11-29",
+       "collec": 2
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 11,
+   "fields": {
+       "title": "M4A1",
+       "description": "Fusil d'assaut classique dans Call of Duty.",
+       "value": 100.00,
+       "quantity": 40,
+       "date": "2024-11-29",
+       "collec": 3
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 12,
+   "fields": {
+       "title": "AK-47",
+       "description": "Fusil d'assaut légendaire.",
+       "value": 120.00,
+       "quantity": 35,
+       "date": "2024-11-29",
+       "collec": 3
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 13,
+   "fields": {
+       "title": "Desert Eagle",
+       "description": "Pistolet très puissant.",
+       "value": 80.00,
+       "quantity": 50,
+       "date": "2024-11-29",
+       "collec": 3
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 14,
+   "fields": {
+       "title": "MP5",
+       "description": "Mitraillette légère et efficace.",
+       "value": 90.00,
+       "quantity": 60,
+       "date": "2024-11-29",
+       "collec": 3
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 15,
+   "fields": {
+       "title": "RPG-7",
+       "description": "Lance-roquettes destructeur.",
+       "value": 150.00,
+       "quantity": 20,
+       "date": "2024-11-29",
+       "collec": 3
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 16,
+   "fields": {
+       "title": "Canapé Moderne",
+       "description": "Un canapé confortable pour les Sims.",
+       "value": 50.00,
+       "quantity": 25,
+       "date": "2024-11-29",
+       "collec": 4
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 17,
+   "fields": {
+       "title": "Lit King Size",
+       "description": "Un lit luxueux pour les Sims.",
+       "value": 200.00,
+       "quantity": 10,
+       "date": "2024-11-29",
+       "collec": 4
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 18,
+   "fields": {
+       "title": "Réfrigérateur Intelligent",
+       "description": "Un réfrigérateur connecté et efficace.",
+       "value": 300.00,
+       "quantity": 5,
+       "date": "2024-11-29",
+       "collec": 4
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 19,
+   "fields": {
+       "title": "Bureau Ergonomique",
+       "description": "Parfait pour le télétravail de vos Sims.",
+       "value": 150.00,
+       "quantity": 15,
+       "date": "2024-11-29",
+       "collec": 4
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 20,
+   "fields": {
+       "title": "Chaise de Designer",
+       "description": "Une chaise élégante et confortable.",
+       "value": 100.00,
+       "quantity": 20,
+       "date": "2024-11-29",
+       "collec": 4
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 21,
+   "fields": {
+       "title": "Tank Abrams",
+       "description": "Véhicule blindé pour la bataille.",
+       "value": 500.00,
+       "quantity": 10,
+       "date": "2024-11-29",
+       "collec": 5
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 22,
+   "fields": {
+       "title": "Hélicoptère Apache",
+       "description": "Hélicoptère d'attaque performant.",
+       "value": 1000.00,
+       "quantity": 5,
+       "date": "2024-11-29",
+       "collec": 5
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 23,
+   "fields": {
+       "title": "Jeep Militaire",
+       "description": "Véhicule rapide et agile.",
+       "value": 300.00,
+       "quantity": 20,
+       "date": "2024-11-29",
+       "collec": 5
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 24,
+   "fields": {
+       "title": "Bateau Patrouilleur",
+       "description": "Utilisé pour des batailles navales.",
+       "value": 600.00,
+       "quantity": 8,
+       "date": "2024-11-29",
+       "collec": 5
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 25,
+   "fields": {
+       "title": "Avion de Chasse",
+       "description": "Idéal pour les combats aériens.",
+       "value": 1500.00,
+       "quantity": 3,
+       "date": "2024-11-29",
+       "collec": 5
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 26,
+   "fields": {
+       "title": "Ahri",
+       "description": "Une mage séductrice.",
+       "value": 10.00,
+       "quantity": 300,
+       "date": "2024-11-29",
+       "collec": 6
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 27,
+   "fields": {
+       "title": "Yasuo",
+       "description": "Un samouraï maître du vent.",
+       "value": 20.00,
+       "quantity": 200,
+       "date": "2024-11-29",
+       "collec": 6
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 28,
+   "fields": {
+       "title": "Jinx",
+       "description": "Une tireuse d'élite explosive.",
+       "value": 15.00,
+       "quantity": 250,
+       "date": "2024-11-29",
+       "collec": 6
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 29,
+   "fields": {
+       "title": "Garen",
+       "description": "Un guerrier tanky.",
+       "value": 5.00,
+       "quantity": 400,
+       "date": "2024-11-29",
+       "collec": 6
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 30,
+   "fields": {
+       "title": "Lux",
+       "description": "Une mage lumineuse.",
+       "value": 12.00,
+       "quantity": 300,
+       "date": "2024-11-29",
+       "collec": 6
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 31,
+   "fields": {
+       "title": "Jett",
+       "description": "Agent agile et rapide.",
+       "value": 10.00,
+       "quantity": 300,
+       "date": "2024-11-29",
+       "collec": 7
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 32,
+   "fields": {
+       "title": "Phoenix",
+       "description": "Agent maîtrisant le feu.",
+       "value": 12.00,
+       "quantity": 200,
+       "date": "2024-11-29",
+       "collec": 7
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 33,
+   "fields": {
+       "title": "Sage",
+       "description": "Agent de soutien avec des capacités de soin.",
+       "value": 15.00,
+       "quantity": 150,
+       "date": "2024-11-29",
+       "collec": 7
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 34,
+   "fields": {
+       "title": "Viper",
+       "description": "Agent utilisant des capacités toxiques.",
+       "value": 18.00,
+       "quantity": 100,
+       "date": "2024-11-29",
+       "collec": 7
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 35,
+   "fields": {
+       "title": "Brimstone",
+       "description": "Agent tactique fournissant des supports de zone.",
+       "value": 20.00,
+       "quantity": 80,
+       "date": "2024-11-29",
+       "collec": 7
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 36,
+   "fields": {
+       "title": "Masque Doré",
+       "description": "Un masque ancien trouvé dans un temple perdu.",
+       "value": 500.00,
+       "quantity": 3,
+       "date": "2024-11-29",
+       "collec": 8
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 37,
+   "fields": {
+       "title": "Dague de Xian",
+       "description": "Une dague mystique liée à un ancien empereur.",
+       "value": 750.00,
+       "quantity": 2,
+       "date": "2024-11-29",
+       "collec": 8
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 38,
+   "fields": {
+       "title": "Bâton d'Horus",
+       "description": "Un artefact légendaire lié à la mythologie égyptienne.",
+       "value": 1000.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 8
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 39,
+   "fields": {
+       "title": "Amulette de Jade",
+       "description": "Une amulette ornée de motifs complexes.",
+       "value": 300.00,
+       "quantity": 10,
+       "date": "2024-11-29",
+       "collec": 8
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 40,
+   "fields": {
+       "title": "Couronne de Mithras",
+       "description": "Une couronne sacrée liée à un ancien culte.",
+       "value": 800.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 8
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 41,
+   "fields": {
+       "title": "Épée de Légende",
+       "description": "Une épée magique utilisée pour vaincre les forces du mal.",
+       "value": 1000.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 9
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 42,
+   "fields": {
+       "title": "Bouclier Hylien",
+       "description": "Un bouclier emblématique offrant une grande protection.",
+       "value": 500.00,
+       "quantity": 2,
+       "date": "2024-11-29",
+       "collec": 9
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 43,
+   "fields": {
+       "title": "Ocarina du Temps",
+       "description": "Un instrument magique capable de manipuler le temps.",
+       "value": 750.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 9
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 44,
+   "fields": {
+       "title": "Arc de Lumière",
+       "description": "Un arc sacré utilisé pour vaincre les forces obscures.",
+       "value": 600.00,
+       "quantity": 3,
+       "date": "2024-11-29",
+       "collec": 9
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 45,
+   "fields": {
+       "title": "Triforce",
+       "description": "Un artefact mystique symbolisant le pouvoir, la sagesse et le courage.",
+       "value": 1500.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 9
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 46,
+   "fields": {
+       "title": "Mewtwo",
+       "description": "Un Pokémon légendaire psychique créé par l'homme.",
+       "value": 1200.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 10
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 47,
+   "fields": {
+       "title": "Rayquaza",
+       "description": "Un Pokémon dragon volant qui contrôle les cieux.",
+       "value": 1500.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 10
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 48,
+   "fields": {
+       "title": "Lugia",
+       "description": "Un Pokémon aquatique et psychique qui garde les océans.",
+       "value": 1400.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 10
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 49,
+   "fields": {
+       "title": "Dialga",
+       "description": "Un Pokémon dragon et acier qui contrôle le temps.",
+       "value": 1600.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 10
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 50,
+   "fields": {
+       "title": "Groudon",
+       "description": "Un Pokémon légendaire terrestre qui contrôle les continents.",
+       "value": 1300.00,
+       "quantity": 1,
+       "date": "2024-11-29",
+       "collec": 10
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 51,
+   "fields": {
+       "title": "Ryu",
+       "description": "Un maître du Hadouken, combattant emblématique.",
+       "value": 50.00,
+       "quantity": 100,
+       "date": "2024-11-29",
+       "collec": 11
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 52,
+   "fields": {
+       "title": "Ken",
+       "description": "Un combattant rapide et agile, rival de Ryu.",
+       "value": 45.00,
+       "quantity": 100,
+       "date": "2024-11-29",
+       "collec": 11
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 53,
+   "fields": {
+       "title": "Chun-Li",
+       "description": "Une combattante rapide avec des coups de pieds puissants.",
+       "value": 40.00,
+       "quantity": 120,
+       "date": "2024-11-29",
+       "collec": 11
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 54,
+   "fields": {
+       "title": "Blanka",
+       "description": "Un combattant sauvage avec des attaques électriques.",
+       "value": 35.00,
+       "quantity": 80,
+       "date": "2024-11-29",
+       "collec": 11
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 55,
+   "fields": {
+       "title": "Guile",
+       "description": "Un combattant tactique avec des attaques à distance.",
+       "value": 38.00,
+       "quantity": 90,
+       "date": "2024-11-29",
+       "collec": 11
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 56,
+   "fields": {
+       "title": "Pistolet Samurai Edge",
+       "description": "Une arme emblématique des agents STARS.",
+       "value": 300.00,
+       "quantity": 50,
+       "date": "2024-11-29",
+       "collec": 12
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 57,
+   "fields": {
+       "title": "Fusil à Pompe M870",
+       "description": "Idéal pour combattre les hordes de zombies.",
+       "value": 500.00,
+       "quantity": 20,
+       "date": "2024-11-29",
+       "collec": 12
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 58,
+   "fields": {
+       "title": "Lance-grenades",
+       "description": "Pour une élimination massive des ennemis.",
+       "value": 800.00,
+       "quantity": 10,
+       "date": "2024-11-29",
+       "collec": 12
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 59,
+   "fields": {
+       "title": "Fusil Sniper PSG-1",
+       "description": "Parfait pour éliminer à distance.",
+       "value": 700.00,
+       "quantity": 15,
+       "date": "2024-11-29",
+       "collec": 12
+   }
+},
+{
+   "model": "collec_management.element",
+   "pk": 60,
+   "fields": {
+       "title": "Couteau de Combat",
+       "description": "Dernier recours pour la survie.",
+       "value": 50.00,
+       "quantity": 100,
+       "date": "2024-11-29",
+       "collec": 12
+   }
 }
 ]
