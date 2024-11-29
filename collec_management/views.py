@@ -11,11 +11,9 @@ def about(request):
     return render(request, 'about.html')
 
 def collection(request,collec_id) :
-    try:
-        collec = Collec.objects.get(pk=collec_id)
-    except Collec.DoesNotExist:
-        raise Http404("La collection n'existe pas")
-    return render(request,"collec_detail.html",{"collec":collec})
+    collec = get_object_or_404(Collec,pk=collec_id)
+    elements = Element.objects.filter(collec=collec)
+    return render(request,"collec_detail.html",{"collec":collec, "elements":elements})
 
 def collectionList(request):
     try:

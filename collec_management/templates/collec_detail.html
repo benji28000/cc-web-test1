@@ -3,27 +3,70 @@
 {% block title %}{{ collec.title }}{% endblock %}
 
 {% block bootstrap5_content %}
-<div class="container my-5 d-flex justify-content-center">
+<div class="container my-5">
 
-    <div class="p-5 border border-primary rounded shadow" style="background-color: #80c0f8; max-width: 600px; width: 100%;">
-        <h1 class="text-center mb-4">{{ collec.title }}</h2>
-        <div class="mb-4">
-            <h4 >Description</h5>
-            <p class="text-dark">{{ collec.description }}</p>
-        </div>
-        <div class="mb-4">
-            <h4 >Date d'ajout</h5>
-            <p class="text-dark">{{ collec.date | date:"j/m/Y" }}</p>
-        </div>
-        <div class="d-flex justify-content-end ">
-            <a href="{% url 'collec_change' collec.id %}" class="btn btn-success me-2">
-                <i class="bi bi-pencil-square"></i> Modifier
-            </a>
-            <a href="{% url 'collec_del' collec.id %}" class="btn btn-danger">
-                <i class="bi bi-trash"></i> Supprimer
-            </a>
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="p-5 border border-primary rounded shadow mb-4" style="background-color: #80c0f8;">
+                <h1 class="text-center mb-4">{{ collec.title }}</h1>
+                <div class="mb-4">
+                    <h4>Description</h4>
+                    <p class="text-dark">{{ collec.description }}</p>
+                </div>
+                <div class="mb-4">
+                    <h4>Date d'ajout</h4>
+                    <p class="text-dark">{{ collec.date | date:"j/m/Y" }}</p>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <a href="{% url 'collec_change' collec.id %}" class="btn btn-success me-2">
+                        <i class="bi bi-pencil-square"></i> Modifier
+                    </a>
+                    <a href="{% url 'collec_del' collec.id %}" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Supprimer
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
+
+    <h2 class="text-center mb-4">Éléments associés</h2>
+    <div class="d-grid gap-2 mb-4">
+        <a href="{% url 'element_add' %}" class="btn btn-primary btn-lg">
+            <i class="bi bi-plus-circle"></i> Ajouter un élément
+        </a>
+    </div>
+
+    {% if elements %}
+        <div class="row">
+            {% for element in elements %}
+                <div class="col-md-6 mb-4 d-flex justify-content-center">
+                    <div class="p-4 border border-secondary rounded shadow" style="background-color: #80c0f8; max-width: 600px; width: 100%;">
+                        <h4 class="text-center mb-3">{{ element.title }}</h4>
+                        <div class="mb-3">
+                            <p><strong>Valeur :</strong> {{ element.value }} €</p>
+                            <p><strong>Quantité :</strong> {{ element.quantity }}</p>
+                            <p><strong>Date d'ajout :</strong> {{ element.date | date:"j/m/Y" }}</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="{% url 'element_detail' element.id %}" class="btn btn-success btn-sm">
+                                <i class="bi bi-eye"></i> Détails
+                            </a>
+                            <div class="d-flex">
+                                <a href="{% url 'element_edit' element.id %}" class="btn btn-warning btn-sm me-2">
+                                    <i class="bi bi-pencil-square"></i> Modifier
+                                </a>
+                                <a href="{% url 'element_del' element.id %}" class="btn btn-danger btn-sm">
+                                    <i class="bi bi-trash"></i> Supprimer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-center">Aucun élément associé à cette collection.</p>
+    {% endif %}
 
 </div>
 {% endblock %}
