@@ -38,6 +38,12 @@ Théo Leclerc Gallois theo.leclerc-gallois@etu.univ-orleans.fr
 
 ``` python manage.py loaddata examples ```
 
-### Créer l'admin Django
+### Créer l'admin Django :
 
 ``` python manage.py createsuperuser ```
+
+### Commandes après l'ajout du modèle Element pour migrer :
+
+``` python manage.py makemigrations ```
+
+``` python manage.py migrate ```
