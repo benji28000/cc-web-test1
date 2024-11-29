@@ -43,8 +43,7 @@ def del_collec(request, collec_id):
         collec.delete()
         messages.success(request, "Le jeu vidéo a bien été supprimé")
         return redirect('collec_list')
-    else:
-        messages.error(request, "Erreur dans la suppression du jeu vidéo")
+    
     
     return render(request, "collec_del.html", {"collec": collec})
 
