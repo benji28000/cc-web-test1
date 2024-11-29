@@ -37,3 +37,7 @@ Théo Leclerc Gallois theo.leclerc-gallois@etu.univ-orleans.fr
 ### load les données dans la bdd :
 
 ``` python manage.py loaddata examples ```
+
+### Créer l'admin Django
+
+``` python manage.py createsuperuser ```
