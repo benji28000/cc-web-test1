@@ -47,3 +47,9 @@ Théo Leclerc Gallois theo.leclerc-gallois@etu.univ-orleans.fr
 ``` python manage.py makemigrations ```
 
 ``` python manage.py migrate ```
+
+### Commandes pour migrer les relations entre les Collections et Elements avec les Users
+
+``` python manage.py makemigrations ```
+
+``` python manage.py migrate ```
