@@ -1,11 +1,26 @@
 [
+   {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+          "username": "user1",
+          "password": "pbkdf2_sha256$870000$Cb9aV0qh955d5mywCsVK1Z$y5bD54ezUfkmCzYe5WnOoOVcaNHXHXd5jzml8xL7R+w=",
+          "email": "user1@mail.fr",
+          "is_staff": true,
+          "is_active": true,
+          "is_superuser": true,
+          "date_joined": "2024-11-29T00:00:00Z",
+          "last_login": null
+      }
+   },
 {
    "model": "collec_management.collec",
    "pk": 1,
    "fields": {
       "title": "Minecraft",
       "description": "Minecraft est un jeu vidéo de type aventure « bac à sable » (construction complètement libre) développé par le Suédois Markus Persson, alias Notch, puis par la société Mojang Studios. Il s'agit d'un univers composé de voxels et généré de façon procédurale, qui intègre un système d'artisanat axé sur l'exploitation puis la transformation de ressources naturelles (minéralogiques, fossiles, animales et végétales).",
-      "date": "2024-10-28T16:42:53.709Z"
+      "date": "2024-10-28T16:42:53.709Z",
+      "user": 1
    }
 },
 {
@@ -14,7 +29,8 @@
    "fields": {
       "title": "Fortnite",
       "description": "Fortnite est un jeu en ligne développé par Epic Games sous la forme de différents modes de jeu qui partagent le même gameplay général et le même moteur de jeu. Les deux premiers modes de jeu sont Fortnite : Sauver le monde, un jeu coopératif de tir et de survie conçu pour quatre joueurs au maximum et dont le but est de combattre des zombies et de défendre des objets à l'aide de fortifications, et Fortnite Battle Royale, un jeu de battle royale en free-to-play où jusqu'à 100 joueurs se battent entre eux jusqu'au dernier survivant. Plusieurs autres modes de jeu sont ensuite ajoutés.",
-      "date": "2024-10-28T16:42:53.751Z"
+      "date": "2024-10-28T16:42:53.751Z",
+      "user": 1
    }
 },
 {
@@ -23,7 +39,8 @@
    "fields": {
       "title": "Call of Duty",
       "description": "Call of Duty ou COD (en français l'« Appel du devoir ») est une série de jeux vidéo de tir à la première personne sur la guerre, dont le premier opus est publié en 2003 par le studio Infinity Ward et l'éditeur Activision. Les épisodes prennent place lors de la Seconde Guerre mondiale ou lors de conflits modernes fictifs.",
-      "date": "2024-10-28T16:42:53.780Z"
+      "date": "2024-10-28T16:42:53.780Z",
+      "user": 1
    }
 },
 {
@@ -32,7 +49,8 @@
    "fields": {
       "title": "Les Sims",
       "description": "Les Sims est une série de jeux vidéo de simulation de vie de type bac à sable, développée par Maxis et édité par Electronic Arts. L'univers des Sims est une projection humoristique et décalée de la société de consommation où il n'existe pas d'objectif précis. Le joueur doit simplement gérer les besoins de ses personnages, nommés « sims », et leur faire mener la vie qu'il désire.",
-      "date": "2024-10-28T16:42:53.806Z"
+      "date": "2024-10-28T16:42:53.806Z",
+      "user": 1
    }
 },
 {
@@ -41,7 +59,8 @@
    "fields": {
       "title": "Battlefield",
       "description": "Battlefield (de l'anglais, signifiant littéralement « Champ de bataille ») est une série de jeux vidéo de tir à la première personne développée par DICE et éditée par Electronic Arts, qui a débuté par le jeu Battlefield 1942 en 2002.",
-      "date": "2024-10-28T16:42:53.829Z"
+      "date": "2024-10-28T16:42:53.829Z",
+      "user": 1
    }
 },
 {
@@ -50,7 +69,8 @@
    "fields": {
       "title": "League Of Legends",
       "description": "League of Legends (abrégé LoL) est un jeu vidéo sorti en 2009 de type arène de bataille en ligne, free-to-play, développé et édité par Riot Games sur Windows et Mac OS.",
-      "date": "2024-10-28T16:42:53.850Z"
+      "date": "2024-10-28T16:42:53.850Z",
+      "user": 1
    }
 },
 {
@@ -59,7 +79,8 @@
    "fields": {
       "title": "Valorant",
       "description": "Valorant (stylisé VALORANT) est un jeu vidéo free-to-play de tir à la première personne (FPS) en multijoueur développé et édité par Riot Games et sorti le 2 juin 2020.",
-      "date": "2024-10-28T16:42:53.874Z"
+      "date": "2024-10-28T16:42:53.874Z",
+      "user": 1
    }
 },
 {
@@ -68,7 +89,8 @@
    "fields": {
       "title": "Tomb Raider",
       "description": "Tomb Raider (/tum ˈreɪdər/) est une franchise constituée de jeux vidéo d'action-aventure, de comics, romans et de films se centrant sur les aventures du personnage de fiction Lara Croft, aventurière britannique inspirant le titre de la franchise (« Pilleur de tombe » en français).",
-      "date": "2024-10-28T16:42:53.898Z"
+      "date": "2024-10-28T16:42:53.898Z",
+      "user": 1
    }
 },
 {
@@ -77,7 +99,8 @@
    "fields": {
       "title": "The Legend Of Zelda",
       "description": "The Legend of Zelda (ゼルダの伝説, Zeruda no densetsu?), ou simplement Zelda, est une série de jeux vidéo d'action-aventure produite par la société japonaise Nintendo et créée par Shigeru Miyamoto et Takashi Tezuka. Depuis 1986 et la sortie du jeu The Legend of Zelda sur la console NES, vingt-et-un jeux font officiellement partie de la saga principale.",
-      "date": "2024-10-28T16:42:53.918Z"
+      "date": "2024-10-28T16:42:53.918Z",
+      "user": 1
    }
 },
 {
@@ -86,7 +109,8 @@
    "fields": {
       "title": "PokémonN 1",
       "description": "PokémonN 1 (prononcé [pɔ.ke.mɔn], connue au Japon sous le nom de Pocket MonstersN 2) est une franchise créée par Satoshi Tajiri en 1995, présente en particulier en jeu vidéo, dans des séries éditées par Nintendo. Selon les statistiques de Nintendo en 2010, les jeux Pokémon se sont vendus à environ 250 millions d’unités. Le jeu vidéo Pokémon Rouge et Bleu s’est vendu à plus de 30 millions d’exemplaires, ce qui en fait un record des ventes dans l’histoire du jeu vidéo.",
-      "date": "2024-10-28T16:42:53.943Z"
+      "date": "2024-10-28T16:42:53.943Z",
+      "user": 1
    }
 },
 {
@@ -95,7 +119,8 @@
    "fields": {
       "title": "Street Fighter",
       "description": "Street Fighter (ストリートファイター, Sutorīto Faitā?) est une série de jeux vidéo de combat en un contre un développée par Capcom, dont le premier épisode est publié en 1987.",
-      "date": "2024-10-28T16:42:53.965Z"
+      "date": "2024-10-28T16:42:53.965Z",
+      "user": 1
    }
 },
 {
@@ -104,7 +129,8 @@
    "fields": {
       "title": "Resident Evil",
       "description": "Resident Evil, connue au Japon sous le nom Biohazard (バイオハザード, Baiohazādo?), est une série de jeux vidéo d'aventure, action et réflexion de type survival horror. La franchise appartient à la société japonaise Capcom.",
-      "date": "2024-10-28T16:42:53.989Z"
+      "date": "2024-10-28T16:42:53.989Z",
+      "user": 1
    }
 },
 
@@ -117,7 +143,8 @@
        "value": 50.00,
        "quantity": 30,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 1
+       "collec": 1,
+       "user": 1
    }
 },
 {
@@ -129,7 +156,8 @@
        "value": 40.00,
        "quantity": 50,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 1
+       "collec": 1,
+       "user": 1
    }
 },
 {
@@ -141,7 +169,8 @@
        "value": 30.00,
        "quantity": 80,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 1
+       "collec": 1,
+         "user": 1
    }
 },
 {
@@ -153,7 +182,8 @@
        "value": 20.00,
        "quantity": 100,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 1
+       "collec": 1,
+         "user": 1
    }
 },
 {
@@ -165,7 +195,8 @@
        "value": 10.00,
        "quantity": 200,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 1
+       "collec": 1,
+         "user": 1
    }
 },
 {
@@ -177,7 +208,8 @@
        "value": 10.00,
        "quantity": 100,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 2
+       "collec": 2,
+         "user": 1
    }
 },
 {
@@ -189,7 +221,8 @@
        "value": 15.00,
        "quantity": 120,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 2
+       "collec": 2,
+         "user": 1
    }
 },
 {
@@ -201,7 +234,8 @@
        "value": 20.00,
        "quantity": 80,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 2
+       "collec": 2,
+         "user": 1
    }
 },
 {
@@ -213,7 +247,8 @@
        "value": 25.00,
        "quantity": 50,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 2
+       "collec": 2,
+         "user": 1
    }
 },
 {
@@ -225,7 +260,8 @@
        "value": 30.00,
        "quantity": 30,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 2
+       "collec": 2,
+         "user": 1
    }
 },
 {
@@ -237,7 +273,8 @@
        "value": 100.00,
        "quantity": 40,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 3
+       "collec": 3,
+         "user": 1
    }
 },
 {
@@ -249,7 +286,8 @@
        "value": 120.00,
        "quantity": 35,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 3
+       "collec": 3,
+         "user": 1
    }
 },
 {
@@ -261,7 +299,8 @@
        "value": 80.00,
        "quantity": 50,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 3
+       "collec": 3,
+         "user": 1
    }
 },
 {
@@ -273,7 +312,8 @@
        "value": 90.00,
        "quantity": 60,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 3
+       "collec": 3,
+         "user": 1
    }
 },
 {
@@ -285,7 +325,8 @@
        "value": 150.00,
        "quantity": 20,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 3
+       "collec": 3,
+         "user": 1
    }
 },
 {
@@ -297,7 +338,8 @@
        "value": 50.00,
        "quantity": 25,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 4
+       "collec": 4,
+         "user": 1
    }
 },
 {
@@ -309,7 +351,8 @@
        "value": 200.00,
        "quantity": 10,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 4
+       "collec": 4,
+         "user": 1
    }
 },
 {
@@ -321,7 +364,8 @@
        "value": 300.00,
        "quantity": 5,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 4
+       "collec": 4,
+         "user": 1
    }
 },
 {
@@ -333,7 +377,8 @@
        "value": 150.00,
        "quantity": 15,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 4
+       "collec": 4,
+         "user": 1
    }
 },
 {
@@ -345,7 +390,8 @@
        "value": 100.00,
        "quantity": 20,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 4
+       "collec": 4,
+         "user": 1
    }
 },
 {
@@ -357,7 +403,8 @@
        "value": 500.00,
        "quantity": 10,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 5
+       "collec": 5,
+         "user": 1
    }
 },
 {
@@ -369,7 +416,8 @@
        "value": 1000.00,
        "quantity": 5,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 5
+       "collec": 5,
+         "user": 1
    }
 },
 {
@@ -381,7 +429,8 @@
        "value": 300.00,
        "quantity": 20,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 5
+       "collec": 5,
+         "user": 1
    }
 },
 {
@@ -393,7 +442,8 @@
        "value": 600.00,
        "quantity": 8,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 5
+       "collec": 5,
+         "user": 1
    }
 },
 {
@@ -405,7 +455,8 @@
        "value": 1500.00,
        "quantity": 3,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 5
+       "collec": 5,
+         "user": 1
    }
 },
 {
@@ -417,7 +468,8 @@
        "value": 10.00,
        "quantity": 300,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 6
+       "collec": 6,
+         "user": 1
    }
 },
 {
@@ -429,7 +481,8 @@
        "value": 20.00,
        "quantity": 200,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 6
+       "collec": 6,
+         "user": 1
    }
 },
 {
@@ -441,7 +494,8 @@
        "value": 15.00,
        "quantity": 250,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 6
+       "collec": 6,
+         "user": 1
    }
 },
 {
@@ -453,7 +507,8 @@
        "value": 5.00,
        "quantity": 400,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 6
+       "collec": 6,
+         "user": 1
    }
 },
 {
@@ -465,7 +520,8 @@
        "value": 12.00,
        "quantity": 300,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 6
+       "collec": 6,
+         "user": 1
    }
 },
 {
@@ -477,7 +533,8 @@
        "value": 10.00,
        "quantity": 300,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 7
+       "collec": 7,
+         "user": 1
    }
 },
 {
@@ -489,7 +546,8 @@
        "value": 12.00,
        "quantity": 200,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 7
+       "collec": 7,
+         "user": 1
    }
 },
 {
@@ -501,7 +559,8 @@
        "value": 15.00,
        "quantity": 150,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 7
+       "collec": 7,
+         "user": 1
    }
 },
 {
@@ -513,7 +572,8 @@
        "value": 18.00,
        "quantity": 100,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 7
+       "collec": 7,
+         "user": 1
    }
 },
 {
@@ -525,7 +585,8 @@
        "value": 20.00,
        "quantity": 80,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 7
+       "collec": 7,
+         "user": 1
    }
 },
 {
@@ -537,7 +598,8 @@
        "value": 500.00,
        "quantity": 3,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 8
+       "collec": 8,
+         "user": 1
    }
 },
 {
@@ -549,7 +611,8 @@
        "value": 750.00,
        "quantity": 2,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 8
+       "collec": 8,
+         "user": 1
    }
 },
 {
@@ -561,7 +624,8 @@
        "value": 1000.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 8
+       "collec": 8,
+         "user": 1
    }
 },
 {
@@ -573,7 +637,8 @@
        "value": 300.00,
        "quantity": 10,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 8
+       "collec": 8,
+         "user": 1
    }
 },
 {
@@ -585,7 +650,8 @@
        "value": 800.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 8
+       "collec": 8,
+         "user": 1
    }
 },
 {
@@ -597,7 +663,8 @@
        "value": 1000.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 9
+       "collec": 9,
+         "user": 1
    }
 },
 {
@@ -609,7 +676,8 @@
        "value": 500.00,
        "quantity": 2,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 9
+       "collec": 9,
+         "user": 1
    }
 },
 {
@@ -621,7 +689,8 @@
        "value": 750.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 9
+       "collec": 9,
+         "user": 1
    }
 },
 {
@@ -633,7 +702,8 @@
        "value": 600.00,
        "quantity": 3,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 9
+       "collec": 9,
+         "user": 1
    }
 },
 {
@@ -645,7 +715,8 @@
        "value": 1500.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 9
+       "collec": 9,
+         "user": 1
    }
 },
 {
@@ -657,7 +728,8 @@
        "value": 1200.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 10
+       "collec": 10,
+         "user": 1
    }
 },
 {
@@ -669,7 +741,8 @@
        "value": 1500.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 10
+       "collec": 10,
+         "user": 1
    }
 },
 {
@@ -681,7 +754,8 @@
        "value": 1400.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 10
+       "collec": 10,
+         "user": 1
    }
 },
 {
@@ -693,7 +767,8 @@
        "value": 1600.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 10
+       "collec": 10,
+         "user": 1
    }
 },
 {
@@ -705,7 +780,8 @@
        "value": 1300.00,
        "quantity": 1,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 10
+       "collec": 10,
+         "user": 1
    }
 },
 {
@@ -717,7 +793,8 @@
        "value": 50.00,
        "quantity": 100,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 11
+       "collec": 11,
+         "user": 1
    }
 },
 {
@@ -729,7 +806,8 @@
        "value": 45.00,
        "quantity": 100,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 11
+       "collec": 11,
+         "user": 1
    }
 },
 {
@@ -741,7 +819,8 @@
        "value": 40.00,
        "quantity": 120,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 11
+       "collec": 11,
+         "user": 1
    }
 },
 {
@@ -753,7 +832,8 @@
        "value": 35.00,
        "quantity": 80,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 11
+       "collec": 11,
+         "user": 1
    }
 },
 {
@@ -765,7 +845,8 @@
        "value": 38.00,
        "quantity": 90,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 11
+       "collec": 11,
+         "user": 1
    }
 },
 {
@@ -777,7 +858,8 @@
        "value": 300.00,
        "quantity": 50,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 12
+       "collec": 12,
+         "user": 1
    }
 },
 {
@@ -789,7 +871,8 @@
        "value": 500.00,
        "quantity": 20,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 12
+       "collec": 12,
+         "user": 1
    }
 },
 {
@@ -801,7 +884,8 @@
        "value": 800.00,
        "quantity": 10,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 12
+       "collec": 12,
+         "user": 1
    }
 },
 {
@@ -813,7 +897,8 @@
        "value": 700.00,
        "quantity": 15,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 12
+       "collec": 12,
+         "user": 1
    }
 },
 {
@@ -825,7 +910,8 @@
        "value": 50.00,
        "quantity": 100,
        "date": "2024-11-29T00:00:00Z",
-       "collec": 12
+       "collec": 12,
+         "user": 1
    }
 }
 ]

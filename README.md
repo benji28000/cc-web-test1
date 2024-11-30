@@ -48,8 +48,15 @@ Théo Leclerc Gallois theo.leclerc-gallois@etu.univ-orleans.fr
 
 ``` python manage.py migrate ```
 
-### Commandes pour migrer les relations entre les Collections et Elements avec les Users
+### Commandes pour migrer les relations entre les Collections et Elements avec les Users :
 
 ``` python manage.py makemigrations ```
 
 ``` python manage.py migrate ```
+
+
+### Load les données avec un user et les relations des collections et elements avec cet user :
+``` python manage.py loaddata examples ```
+
+## Le username est : user1
+## Le password est : admin

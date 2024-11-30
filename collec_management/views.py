@@ -134,7 +134,10 @@ def login(request):
         user = authenticate(username=form.cleaned_data['username'], password=form.cleaned_data['password'])
         if user is not None:
             auth_login(request, user)
+            messages.success(request, "connexion réussie")
             return redirect(next_url)
+        else:
+            messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
     return render(request, "login.html", {"form": form})
 
 def logout(request):
@@ -146,5 +149,7 @@ def register(request):
     if form.is_valid():
         user = User.objects.create_user(username=form.cleaned_data['username'],email=form.cleaned_data['email'],password=form.cleaned_data['password'])
         user.save()
+        messages.success(request, "Inscription réussie")
         return redirect('login')
+    messages.error(request, "Erreur lors de l'inscription")
     return render(request, "register.html", {"form": form})
