@@ -3,9 +3,12 @@ from django.http import Http404
 from django.shortcuts import redirect, render, get_object_or_404
 from django.contrib import messages
 
-from collec_management.forms import CollecForm, ElementForm
+from collec_management.forms import CollecForm, ElementForm, loginForm, registerForm
 from collec_management.models import Collec, Element
 from django.contrib import messages
+from django.contrib.auth import authenticate, login as auth_login, logout as auth_logout
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.models import User
 
 def about(request):
     return render(request, 'about.html')
@@ -101,3 +104,23 @@ def edit_element(request, element_id):
         form = ElementForm(instance=element)
     return render(request, "element_form_edit.html", {"form": form, "element": element})
 
+def login(request):
+    form = loginForm(request.POST or None)
+    if form.is_valid():
+        user = authenticate(username=form.cleaned_data['username'], password=form.cleaned_data['password'])
+        if user is not None:
+            auth_login(request, user)
+            return redirect('home')
+    return render(request, "login.html", {"form": form})
+
+def logout(request):
+    auth_logout(request)
+    return redirect('home')
+
+def register(request):
+    form = registerForm(request.POST or None)
+    if form.is_valid():
+        user = User.objects.create_user(username=form.cleaned_data['username'],email=form.cleaned_data['email'],password=form.cleaned_data['password'])
+        user.save()
+        return redirect('login')
+    return render(request, "register.html", {"form": form})
